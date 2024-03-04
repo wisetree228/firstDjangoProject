@@ -14,4 +14,4 @@ class Article(models.Model):
         return f'/{self.id}'
 # Create your models here.
 
-#commi 1
+#commi 2

@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abf0dfe2-6c26-454b-9ef4-4adb1aa0c922" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/templates/newslist/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/templates/newslist/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/templates/newslist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/templates/newslist/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/templates/newslist/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/newslist/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/newslist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/newslist/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
