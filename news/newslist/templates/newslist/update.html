@@ -1,0 +1,31 @@
+{% extends 'newslist/layout.html' %}
+{% block title %}
+
+
+редактировать новость
+
+
+{% endblock %}
+
+
+
+
+
+{% block body %}
+
+<div class="container">
+    <form method="post" class="form" action="{% url 'add' %}">
+        {% csrf_token %}
+        {{ form.header }}<br>
+        {{ form.text }}<br>
+        {{ form.dateTime }}<br>
+        <span>{{ error }}</span>
+        <button type="submit" class="add addnew">Сохранить запись</button>
+    </form>
+
+
+</div>
+
+
+
+{% endblock %}

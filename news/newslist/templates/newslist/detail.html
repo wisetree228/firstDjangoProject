@@ -1,0 +1,24 @@
+{% extends 'newslist/layout.html' %}
+{% block title %}
+
+
+{{Article.header}}
+
+
+{% endblock %}
+
+
+
+
+
+{% block body %}
+
+<div class="container">
+    <h1 class="name">{{ Article.header }}</h1>
+    <p class="text">{{ Article.text }}</p>
+    <p class="dateTime">{{ Article.date }}</p>
+</div>
+
+
+
+{% endblock %}

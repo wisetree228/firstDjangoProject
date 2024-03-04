@@ -1,0 +1,29 @@
+{% extends 'newslist/layout.html' %}
+{% block title %}
+
+
+Новости
+
+
+{% endblock %}
+
+
+
+
+
+{% block body %}
+
+<div class="container">
+    {% for el in news %}
+<div class="new">
+    <h4 class="name">{{ el.header }}</h4><br>
+    <p class="text">{{ el.text }}</p>
+    <p class="dateTime">{{ el.dateTime }}</p>
+    <a class="view-btn" href="{% url 'news-detail' el.id %}">Смотреть</a>
+</div>
+    {% endfor %}
+    <a class="add" href="{% url 'add' %}">Добавить</a>
+</div>
+
+
+{% endblock %}
